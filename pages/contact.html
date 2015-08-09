@@ -1,0 +1,52 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<form method="post">
+				<div class="row">
+					<div class="col-md-6">
+						<input name="name" type="text" placeholder="Name"/>
+					</div>
+					<div class="col-md-6">
+						<input name="company" type="text" placeholder="Company"/>
+					</div>
+					<div class="col-md-6">
+						<input name="phone" type="text" placeholder="Phone"/>
+					</div>
+					<div class="col-md-6">
+						<input name="email" type="text" placeholder="Email"/>
+					</div>
+					<div class="col-md-12">
+						<textarea placeholder="Message" name="message"></textarea>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<style>
+/* color:#BC9AF4 */
+	form input, form textarea {
+		outline:none;
+		display:inline-block;
+		margin:5px;
+		padding: 8px 16px;
+		border: 1px solid #A280DA;
+		width: 100%;
+		float:left;
+	}
+	form input:focus, form textarea:focus {
+		border: 1px solid #BC9AF4;
+	}
+	::-webkit-input-placeholder {
+	   color: #A280DA;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #A280DA;
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #A280DA;
+	}
+	:-ms-input-placeholder {
+	   color: r#A280DA;
+	}
+</style>
